@@ -1,0 +1,11 @@
+configuration {
+	modi: "drun";
+	show-icons: true;
+	drun-display-format: "{icon} {name}";
+	location: 0;
+	disable-history: false;
+	hide-scrollbar: true;
+	display-drun: "   Apps ";
+}
+
+@theme "catppuccin-frappe"

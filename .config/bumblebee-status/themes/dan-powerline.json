@@ -1,0 +1,33 @@
+{
+    "icons": ["myfont"],
+    "colors": [ { "1":"#1C1D1E", "2":"#37353A", "3":"42404A", "4":"#171818", "5":"#979AAC" } ],
+    "defaults": {
+        "separator-block-width": 0,
+        "warning": {
+            "fg": "3",
+            "bg": "1"
+        },
+        "critical": {
+            "fg": "3",
+            "bg": "1"
+        }
+    },
+    "pomodoro": {
+        "paused": {
+            "fg": "#282A36",
+            "bg": "#F1FA8C"
+        },
+        "work": {
+            "fg": "#50FA7B",
+            "bg": "#282A36"
+        },
+        "break": {
+            "fg": "#282A36",
+            "bg": "#50FA7B"
+        }
+    },
+    "cycle": [
+		{"fg": "3", "bg": "2"},
+		{"fg": "1", "bg": "3"}
+	]
+}
