@@ -95,3 +95,5 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 fish
 alias blih='blih -u daniil.stepanov@epitech.eu'
 alias ns_auth='ns_auth -u daniil.stepanov@epitech.eu'
+
+export PATH="$HOME/.local/bin:$PATH"
