@@ -1,6 +1,0 @@
-# Need install ("sudo apt-get install -y cflow", "sudo dnf install -y cflow", "sudo yay -s install cflow", "sudo pacman -S cflow"...)
-cflow -n -T "$@"
-
-# Use like so : `show_flow src_file.c src_file2.c` to display an execution graph.
-# Currently working on a more "fun" way, that would use cflow linked with valgrind to trace the entire execution graph, including memory allocations...
-# Based on the work of "pythontutor.com"
